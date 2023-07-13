@@ -12,15 +12,15 @@
     "installer": {
         "script": [
             "Push-Location \"$dir\"",
-            "7z x ALiCloudDisk-$version\\dist\\ALiCloudDisk.7z",
+            "7z x ALiCloudDisk-$version\\dist\\ALiCloudDisk.7z.001",
             "Remove-Item ALiCloudDisk-$version -Recurse",
             "Pop-Location"
         ]
     },
-    "bin": "ALiCloudDisk.exe",
+    "bin": "aDrive.exe",
     "shortcuts": [
         [
-            "ALiCloudDisk.exe",
+            "aDrive.exe",
             "ALiCloudDisk"
         ]
     ],
